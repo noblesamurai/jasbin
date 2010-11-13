@@ -1,0 +1,13 @@
+{
+	"name"			: "jasbin",
+	"version"		: "1.0",
+	"description"	: "Simple command line runner for jasmine, a BDD Javascript Testing Framework",
+	"homepage"		: "http://pivotal.github.com/jasmine",
+	"keywords"		: ["testing", "bdd", "jasmine", "jasbin"],
+	"author"        : "Davis W. Frank <dwfrank@pivotallabs.com>",
+	"maintainers"   : ["Eugene Ware <eugene@noblesamurai.com>"],
+	"licenses"      : ["MIT"],
+    "dependencies"  : [],
+	"main"			: "jasmine-node/lib",
+	"bin"			: "./bin/jasbin",
+}
