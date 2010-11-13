@@ -1,6 +1,6 @@
 {
 	"name"			: "jasbin",
-	"version"		: "v1.0.1",
+	"version"		: "v1.0.2",
 	"description"	: "Simple command line runner for jasmine, a BDD Javascript Testing Framework",
 	"homepage"		: "http://pivotal.github.com/jasmine",
 	"keywords"		: ["testing", "bdd", "jasmine", "jasbin"],
@@ -8,7 +8,7 @@
 	"maintainers"   : ["Eugene Ware <eugene@noblesamurai.com>"],
 	"licenses"      : ["MIT"],
     "dependencies"  : [],
-	"main"			: "./lib",
+	"main"			: "./jasmine-node/lib/jasmine",
 	"bin"			: "./bin/jasbin",
 	"repository"	: { "type": "git", "url": "http://github.com/noblesamurai/jasbin.git" }
 }
