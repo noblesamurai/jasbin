@@ -10,4 +10,5 @@
     "dependencies"  : [],
 	"main"			: "jasmine-node/lib",
 	"bin"			: "./bin/jasbin",
+	"repository"	: { "type": "git", "url": "http://github.com/noblesamurai/jasbin.git" }
 }
