@@ -1,0 +1,3 @@
+[submodule "jasmine-node"]
+	path = jasmine-node
+	url = git://github.com/mhevery/jasmine-node.git

@@ -1,5 +1,0 @@
-# How to get jasmine working with node.js
-
-* git clone git://github.com/mhevery/jasmine-node.git
-* ln -sf jasmine-node/lib/jasmine ~/.node_libraries
-* move bin/jasmine into your path
