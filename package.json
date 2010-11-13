@@ -8,7 +8,7 @@
 	"maintainers"   : ["Eugene Ware <eugene@noblesamurai.com>"],
 	"licenses"      : ["MIT"],
     "dependencies"  : [],
-	"main"			: "jasmine-node/lib",
+	"main"			: "./lib",
 	"bin"			: "./bin/jasbin",
 	"repository"	: { "type": "git", "url": "http://github.com/noblesamurai/jasbin.git" }
 }
