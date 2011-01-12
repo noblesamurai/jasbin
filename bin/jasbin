@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-var jasmine = require('jasbin');
-
+var jasmine       = require('jasbin');
+var coffeescript  = require('coffee-script');
 for(var key in jasmine) {
   global[key] = jasmine[key];
 }
