@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var jasmine       = require('jasbin');
+var jasmine = require('jasbin');
 
 // coffeescript support if you have coffee-script installed
 try {
