@@ -1,6 +1,13 @@
 #!/usr/bin/env node
 var jasmine       = require('jasbin');
-var coffeescript  = require('coffee-script');
+
+// coffeescript support if you have coffee-script installed
+try {
+	var coffeescript  = require('coffee-script');
+} catch (e) {
+	// do nothing
+}
+
 for(var key in jasmine) {
   global[key] = jasmine[key];
 }
