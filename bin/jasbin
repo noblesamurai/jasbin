@@ -31,6 +31,5 @@ process.argv.slice(2).forEach(function(arg){
 });
 
 jasmine.executeSpecsInFolder(process.cwd() + '/spec', function(runner, log){
-	process.stdout.flush(); process.stdout.end();
 	process.exit(runner.results().failedCount);
 }, isVerbose, showColors, matcher);
